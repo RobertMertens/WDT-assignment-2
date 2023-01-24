@@ -25,6 +25,17 @@ a {
     filter: brightness(0.9);
 }
 
+#data{
+    display: none;
+    position: absolute;
+    color: var(--gold);
+    top: 0px;
+    left: 0px;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
 /* INDEX PAGE */
 .index {
     overflow: hidden;
