@@ -44,7 +44,7 @@ function displayData () {
         Number of mouse clicks: ${data.clicks}<br>
         Total time spent: ${getTimeSpent()} seconds<br>
         Total key presses: ${data.keyPresses}<br>
-        Total characters typed: ${getCharactersTyped()}<br>
+        Total characters typed: ${getCharactersTyped()}
     `;
 }
 

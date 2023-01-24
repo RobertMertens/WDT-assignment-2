@@ -25,14 +25,16 @@ a {
     filter: brightness(0.9);
 }
 
+/* BEHAVIOURAL TRACKING BOX */
+
 #data{
     display: none;
     position: absolute;
-    color: var(--gold);
+    color: white;
     top: 0px;
     left: 0px;
-    margin: 10px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 10px 10px 10px 20px;
     background-color: black;
 }
 
