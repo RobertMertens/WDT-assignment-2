@@ -1,0 +1,49 @@
+<head>
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>  
+
+    <nav>
+        <a href="home.html"><img src="./images/logo.png" alt="logo" class="logo">Lion shop</a>
+        <div class="menu">
+            <a class="btn3" href="home-supplier.html">Home 🏠</a>
+        </div>
+    </nav>
+
+    <div class="body">
+
+    <form>
+        
+        <div class="top">Post Item</div>
+
+        <div class="bottom">
+            <label for="name">Product name</label>
+            <input type="text" name="login" id="name">
+
+            <label for="quantity">Quantity</label>
+            <input min="0" type="number" name="quantity" id="quantity">
+
+            <label for="price">Price per item</label>
+            <input type="number" min="0" name="price" id="price">
+
+            <label for="category">Category</label>
+            <select name="category" id="category">
+                <option value="">select category</option>
+                <option value="books">books</option>
+                <option value="films">films</option>
+                <option value="toys">toys</option>
+            </select>
+
+            <label for="description">Description</label>
+            <textarea name="description" id="description:" cols="30" rows="1"></textarea>
+
+            <button class="btn2" type="submit">Post Item</button>
+        </div>
+
+    </form>
+
+    </div>
+    
+</body>
